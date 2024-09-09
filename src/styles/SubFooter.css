@@ -1,0 +1,21 @@
+.back-img {
+  background-image: url(../assets/hands.png);
+  background-size: cover;
+  width: 100%;
+  height: 30rem;
+}
+.back-img h2 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 81.72px;
+  color: white;
+}
+@media (max-width: 884px) {
+  .back-img {
+    height: auto;
+  }
+  .back-img h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}

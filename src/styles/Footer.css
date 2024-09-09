@@ -1,0 +1,61 @@
+.bg{
+    background-color: black;
+}
+.sec-div{
+    gap: 145px;
+}
+.footer-p{
+    font-size: 14px;
+    font-weight: 300;
+}
+input{
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: 800;
+    padding: 10px;
+    background-color: black;
+    width: 150px;
+    height: 45px;
+}
+::placeholder{
+    color: white;
+}
+.News-p{
+    font-weight: 600;
+    font-size: 20px;
+}
+button{
+    height: 45px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #2E3192;
+    color: white;
+    font-size: 15px;
+}
+.head{
+    margin: none;
+}
+@media(max-width: 884px){
+    button{
+        margin-top: 10px;   
+    }
+}
+@media(max-width: 428px){
+    .sec-div{
+        text-align: center;
+    }
+    .btn-div{
+        flex-direction: column;
+        /* width: 50%; */
+        margin: auto;
+    }
+    button{
+        width: 100%;
+        margin: 10px 0 10px 0;
+    }
+    ::placeholder{
+        text-align: center;
+    }
+}
